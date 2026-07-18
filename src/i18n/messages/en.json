@@ -1,7 +1,25 @@
 {
   "common": {
-    "siteName": "Shumos Care"
+    "siteName": "Shumos Care",
+    "skipToContent": "Skip to content",
+    "mainNavigation": "Main navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "switchLocale": "العربية",
+    "whatsappCta": "Chat on WhatsApp",
+    "whatsappMessage": "Hello, I'd like to ask about your physiotherapy services."
   },
-  "nav": {},
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "team": "Our Team",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "footer": {
+    "tagline": "Physiotherapy & Rehabilitation Center — Taif, Saudi Arabia",
+    "rights": "All rights reserved."
+  },
   "home": {}
 }

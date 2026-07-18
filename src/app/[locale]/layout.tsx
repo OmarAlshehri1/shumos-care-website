@@ -5,6 +5,9 @@ import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing, type Locale } from "@/i18n/routing";
+import { Header } from "@/components/layout/header";
+import { Footer } from "@/components/layout/footer";
+import { WhatsAppButton } from "@/components/shared/whatsapp-button";
 import "../globals.css";
 
 const alexandria = Alexandria({
@@ -52,7 +55,14 @@ export default async function LocaleLayout({
       style={{ "--font-sans": activeFontVariable } as CSSProperties}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          <Header />
+          <main id="main-content" className="flex flex-1 flex-col">
+            {children}
+          </main>
+          <Footer />
+          <WhatsAppButton />
+        </NextIntlClientProvider>
       </body>
     </html>
   );
