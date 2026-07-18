@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc *)",
+      "Bash(npx eslint *)",
+      "Bash(grep -rnE \"#[0-9A-Fa-f]{3,6}\" src --include=\"*.tsx\" --include=\"*.ts\")",
+      "Bash(npm run *)"
+    ]
+  }
+}
