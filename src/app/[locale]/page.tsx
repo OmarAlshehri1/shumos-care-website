@@ -1,12 +1,17 @@
-import { getTranslations } from "next-intl/server";
+import { Hero } from "@/components/sections/hero";
+import { TrustStrip } from "@/components/sections/trust-strip";
+import { ServicesOverview } from "@/components/sections/services-overview";
+import { Testimonials } from "@/components/sections/testimonials";
+import { CtaBand } from "@/components/sections/cta-band";
 
-export default async function Home() {
-  const t = await getTranslations("common");
-
+export default function Home() {
   return (
-    <main className="flex flex-1 items-center justify-center p-8">
-      {/* Phase 0 placeholder — homepage UI is built in Phase 3 of the roadmap */}
-      <p className="text-muted-foreground">{t("siteName")} — scaffold OK</p>
-    </main>
+    <>
+      <Hero />
+      <TrustStrip />
+      <ServicesOverview />
+      <Testimonials />
+      <CtaBand />
+    </>
   );
 }

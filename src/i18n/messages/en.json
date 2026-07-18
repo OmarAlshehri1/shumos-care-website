@@ -21,5 +21,77 @@
     "tagline": "Physiotherapy & Rehabilitation Center — Taif, Saudi Arabia",
     "rights": "All rights reserved."
   },
-  "home": {}
+  "home": {
+    "hero": {
+      "eyebrow": "Physiotherapy & Rehabilitation in Taif",
+      "headline": "Recover with care, move with confidence",
+      "lead": "Shumos Care blends evidence-based physiotherapy with a calm, modern clinic experience — personalized treatment plans for every stage of recovery.",
+      "primaryCta": "Chat on WhatsApp",
+      "secondaryCta": "Explore our services"
+    },
+    "trust": {
+      "items": [
+        {
+          "title": "Certified Physiotherapists",
+          "description": "Treatment plans led by licensed, experienced clinicians."
+        },
+        {
+          "title": "Personalized Care",
+          "description": "Every program is built around your body and your goals."
+        },
+        {
+          "title": "Modern Equipment",
+          "description": "A clinic equipped for thorough, comfortable rehabilitation."
+        },
+        {
+          "title": "Conveniently in Taif",
+          "description": "Easy to reach, and easy to return to for ongoing care."
+        }
+      ]
+    },
+    "services": {
+      "eyebrow": "What we treat",
+      "heading": "Comprehensive physiotherapy, tailored to you",
+      "lead": "From injury recovery to long-term pain management, every plan starts with understanding you.",
+      "cta": "View all services",
+      "items": [
+        {
+          "title": "Manual Therapy",
+          "description": "Hands-on techniques to relieve pain and restore movement."
+        },
+        {
+          "title": "Sports Rehabilitation",
+          "description": "Structured recovery programs to get athletes back to peak form."
+        },
+        {
+          "title": "Post-Surgical Recovery",
+          "description": "Guided rehabilitation to support a safe, steady recovery."
+        },
+        {
+          "title": "Chronic Pain Management",
+          "description": "Long-term strategies for lasting relief and better mobility."
+        },
+        {
+          "title": "Pediatric Physiotherapy",
+          "description": "Gentle, specialized care for younger patients."
+        },
+        {
+          "title": "Home Visits",
+          "description": "Rehabilitation support in the comfort of your own home."
+        }
+      ]
+    },
+    "testimonials": {
+      "eyebrow": "Patient stories",
+      "heading": "Care that people notice",
+      "placeholderQuote": "Testimonial placeholder — real, consented patient feedback will replace this copy before launch.",
+      "placeholderName": "Patient name",
+      "placeholderService": "Service placeholder"
+    },
+    "cta": {
+      "heading": "Ready to start your recovery?",
+      "lead": "Reach out on WhatsApp and our team will help you find the right treatment plan.",
+      "primaryCta": "Chat on WhatsApp"
+    }
+  }
 }
