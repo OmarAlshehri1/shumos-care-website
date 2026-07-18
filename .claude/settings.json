@@ -5,7 +5,11 @@
       "Bash(npx eslint *)",
       "Bash(grep -rnE \"#[0-9A-Fa-f]{3,6}\" src --include=\"*.tsx\" --include=\"*.ts\")",
       "Bash(npm run *)",
-      "Bash(grep -rnE \"#[0-9A-Fa-f]{3,6}\" \"/Users/omaralshehri/All/Visual projects/shumos-care-website/src\" --include=\"*.tsx\" --include=\"*.ts\")"
+      "Bash(grep -rnE \"#[0-9A-Fa-f]{3,6}\" \"/Users/omaralshehri/All/Visual projects/shumos-care-website/src\" --include=\"*.tsx\" --include=\"*.ts\")",
+      "Bash(mkdir -p \"/Users/omaralshehri/All/Visual projects/shumos-care-website/src/app/[locale]/about\" \"/Users/omaralshehri/All/Visual projects/shumos-care-website/src/app/[locale]/services/[slug]\" \"/Users/omaralshehri/All/Visual projects/shumos-care-website/src/app/[locale]/team/[slug]\")"
+    ],
+    "additionalDirectories": [
+      "/Users/omaralshehri/All/Visual projects/shumos-care-website/src/app/[locale]"
     ]
   }
 }

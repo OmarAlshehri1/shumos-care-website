@@ -7,7 +7,10 @@
     "closeMenu": "Close menu",
     "switchLocale": "العربية",
     "whatsappCta": "Chat on WhatsApp",
-    "whatsappMessage": "Hello, I'd like to ask about your physiotherapy services."
+    "whatsappMessage": "Hello, I'd like to ask about your physiotherapy services.",
+    "notFoundTitle": "Page not found",
+    "notFoundBody": "The page you're looking for doesn't exist or may have moved.",
+    "backHome": "Back to home"
   },
   "nav": {
     "home": "Home",
@@ -93,5 +96,42 @@
       "lead": "Reach out on WhatsApp and our team will help you find the right treatment plan.",
       "primaryCta": "Chat on WhatsApp"
     }
+  },
+  "aboutPage": {
+    "eyebrow": "About Shumos Care",
+    "title": "Care built around how you move",
+    "lead": "Shumos Care is a physiotherapy and rehabilitation center in Taif, focused on personalized, evidence-based treatment in a calm, modern setting.",
+    "missionTitle": "Our approach",
+    "missionBody": "We treat each patient as an individual — building treatment plans around your body, your goals, and your pace of recovery, not a one-size-fits-all protocol.",
+    "valuesHeading": "What guides our care",
+    "values": [
+      {
+        "title": "Evidence-based treatment",
+        "description": "Our clinicians base every plan on established physiotherapy practice."
+      },
+      {
+        "title": "Personalized plans",
+        "description": "No two recovery journeys are the same, so no two treatment plans are either."
+      },
+      {
+        "title": "A calm, modern clinic",
+        "description": "A space designed to make every visit comfortable, not clinical."
+      }
+    ],
+    "storyHeading": "Our story",
+    "storyPlaceholder": "Placeholder — Shumos Care's founding story and milestones will be added here before launch."
+  },
+  "servicesPage": {
+    "eyebrow": "Our Services",
+    "title": "Physiotherapy services for every stage of recovery",
+    "lead": "Explore our areas of care. Every plan begins with an assessment to understand your specific needs.",
+    "learnMore": "Learn more",
+    "backToServices": "Back to all services"
+  },
+  "teamPage": {
+    "eyebrow": "Our Team",
+    "title": "Meet the clinicians guiding your recovery",
+    "lead": "Our team profiles are being finalized — role placeholders below show how this page will look.",
+    "backToTeam": "Back to our team"
   }
 }

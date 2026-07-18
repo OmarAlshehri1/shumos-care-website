@@ -67,7 +67,11 @@ async function ServicesOverview() {
       <div className="mt-12 flex justify-center">
         <Button variant="outline" size="lg" render={<Link href="/services" />}>
           {t("cta")}
-          <ArrowRight data-icon="inline-end" aria-hidden="true" />
+          <ArrowRight
+            data-icon="inline-end"
+            aria-hidden="true"
+            className="rtl:rotate-180"
+          />
         </Button>
       </div>
     </SectionShell>

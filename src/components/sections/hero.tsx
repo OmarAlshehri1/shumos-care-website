@@ -50,7 +50,11 @@ async function Hero() {
               </Button>
               <Button size="lg" variant="outline" render={<a href="#services" />}>
                 {t("secondaryCta")}
-                <ArrowRight data-icon="inline-end" aria-hidden="true" />
+                <ArrowRight
+                  data-icon="inline-end"
+                  aria-hidden="true"
+                  className="rtl:rotate-180"
+                />
               </Button>
             </div>
           </StaggerItem>
